@@ -420,7 +420,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealSuspension2x2mirrored</BlockPairName>
+      <BlockPairName>RealSuspension2x2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -431,7 +431,7 @@
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>RealWheel2x2mirrored</RotorPart>
+      <RotorPart>RealWheel2x2</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
@@ -577,7 +577,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealSuspension2x2</BlockPairName>
+      <BlockPairName>RealSuspension2x2mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -588,7 +588,7 @@
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>RealWheel2x2</RotorPart>
+      <RotorPart>RealWheel2x2mirrored</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
@@ -962,7 +962,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
+      <BlockPairName>RealSuspension4x4</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -973,7 +973,7 @@
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>RealWheel4x4mirrored</RotorPart>
+      <RotorPart>RealWheel4x4</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
@@ -1141,7 +1141,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealSuspension4x4</BlockPairName>
+      <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1152,7 +1152,7 @@
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>RealWheel4x4</RotorPart>
+      <RotorPart>RealWheel4x4mirrored</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
@@ -1168,16 +1168,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-      <UnlockedBy>
-        <BlockId>
-          <TypeId>LandingGear</TypeId>
-          <SubtypeId>LargeBlockLandingGear</SubtypeId>
-        </BlockId>
-        <BlockId>
-          <TypeId>LandingGear</TypeId>
-          <SubtypeId>SmallBlockLandingGear</SubtypeId>
-        </BlockId>
-      </UnlockedBy>
+
     </Definition>
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 4x4 Mirrored Suspension -->
       <Id>
