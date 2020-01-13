@@ -505,7 +505,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PrimarySound>BlockWheel1x1</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.15</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
@@ -584,7 +584,7 @@
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PrimarySound>BlockWheel1x1</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
@@ -662,7 +662,7 @@
       <BuildTimeSeconds>20</BuildTimeSeconds>
       <PrimarySound>BlockWheel1x1</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
@@ -706,10 +706,10 @@
       <UseModelIntersection>true</UseModelIntersection>
       <PhysicalMaterial>Wheel</PhysicalMaterial>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="SteelPlate" Count="4" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <BuildProgressModels>
@@ -761,10 +761,10 @@
       <UseModelIntersection>true</UseModelIntersection>
       <PhysicalMaterial>Wheel</PhysicalMaterial>
       <Components>
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="14" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="LargeTube" Count="4" />
-        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="SteelPlate" Count="14" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <BuildProgressModels>
@@ -816,10 +816,10 @@
       <UseModelIntersection>true</UseModelIntersection>
       <PhysicalMaterial>Wheel</PhysicalMaterial>
       <Components>
-        <Component Subtype="SteelPlate" Count="1" />
-        <Component Subtype="Construction" Count="5" />
-        <Component Subtype="LargeTube" Count="1" />
-        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="SteelPlate" Count="4" />
       </Components>
       <CriticalComponent Subtype="LargeTube" Index="0" />
       <BuildProgressModels>
@@ -963,13 +963,14 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4</BlockPairName>
+	  <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PrimarySound>BlockWheel1x1</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
@@ -1052,6 +1053,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4</BlockPairName>
+	  <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1142,13 +1144,14 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
+	  <MirroringBlock>SmallSuspension4x4</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PrimarySound>BlockWheel1x1</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
@@ -1222,6 +1225,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
+	  <MirroringBlock>SmallSuspension4x4</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1320,6 +1324,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>Suspension3x3</BlockPairName>
+	  <MirroringBlock>Suspension3x3mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1489,13 +1494,14 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>Suspension3x3</BlockPairName>
+	  <MirroringBlock>SmallSuspension3x3mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <PrimarySound>BlockWheel3x3</PrimarySound>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
