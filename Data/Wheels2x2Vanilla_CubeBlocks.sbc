@@ -32,6 +32,31 @@
         <GroupSubtype>14</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+    
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5SlimMirrored" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5Slim" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5SlimMirrored" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5Slim" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
 	
 	
     <ResearchBlock xsi:type="ResearchBlock">
@@ -66,7 +91,7 @@
         <!-- Wheels and Suspensions -->
 		<BlockVariantGroup>
             <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
             <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
             <Description>Description_Suspension</Description>
             <Blocks>
@@ -96,11 +121,13 @@
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension2x2mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5SlimMirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension2x2mirrored" />
                 <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension4x4mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5SlimMirrored" />
             </Blocks>
         </BlockVariantGroup>
 		
@@ -158,7 +185,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 2x2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="1" z="2" />
@@ -213,7 +240,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 2x2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="1" z="2" />
@@ -268,7 +295,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 2x2 mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="1" z="2" />
@@ -322,7 +349,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 2x2 mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="1" z="2" />
@@ -379,7 +406,7 @@
         <SubtypeId>SmallSuspension2x2</SubtypeId>
       </Id>
       <DisplayName>Small Suspension 2x2 Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -456,7 +483,7 @@
         <SubtypeId>Suspension2x2</SubtypeId>
       </Id>
       <DisplayName>Suspension 2x2 Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -536,7 +563,7 @@
         <SubtypeId>SmallSuspension2x2mirrored</SubtypeId>
       </Id>
       <DisplayName>Small Suspension 2x2 Left</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -613,7 +640,7 @@
         <SubtypeId>Suspension2x2mirrored</SubtypeId>
       </Id>
       <DisplayName>Suspension 2x2 Left</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
@@ -699,7 +726,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 4x4</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="2" z="5" />
@@ -754,7 +781,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 4x4</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="2" z="5" />
@@ -809,7 +836,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 4x4 mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="2" z="5" />
@@ -863,7 +890,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 4x4 mirrored</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="2" z="5" />
@@ -920,7 +947,7 @@
         <SubtypeId>SmallSuspension4x4</SubtypeId>
       </Id>
       <DisplayName>Small Suspension 4x4 Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -999,7 +1026,7 @@
         <SubtypeId>Suspension4x4</SubtypeId>
       </Id>
       <DisplayName>Suspension 4x4 Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1091,7 +1118,7 @@
         <SubtypeId>SmallSuspension4x4mirrored</SubtypeId>
       </Id>
       <DisplayName>Small Suspension 4x4 Left</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1171,7 +1198,7 @@
         <SubtypeId>Suspension4x4mirrored</SubtypeId>
       </Id>
       <DisplayName>Wheel Suspension 4x4 Left</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1245,16 +1272,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-      <UnlockedBy>
-        <BlockId>
-          <TypeId>LandingGear</TypeId>
-          <SubtypeId>LargeBlockLandingGear</SubtypeId>
-        </BlockId>
-        <BlockId>
-          <TypeId>LandingGear</TypeId>
-          <SubtypeId>SmallBlockLandingGear</SubtypeId>
-        </BlockId>
-      </UnlockedBy>
+
     </Definition>
  
 
@@ -1266,7 +1284,7 @@
         <SubtypeId>Suspension5x5Slim</SubtypeId>
       </Id>
       <DisplayName>Suspension 5x5 Slim Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1311,8 +1329,8 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealSuspension4x4</BlockPairName>
-	  <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
+      <BlockPairName>RealSuspension5x5Slim</BlockPairName>
+	    <MirroringBlock>Suspension5x5SlimMirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1324,7 +1342,7 @@
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
-      <RotorPart>RealWheel5x5Slim</RotorPart>
+      <RotorPart>RWheel5x5Slim</RotorPart>
       <MinHeight>-1.5</MinHeight>
       <MaxHeight>1.3</MaxHeight>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
@@ -1348,7 +1366,7 @@
         <SubtypeId>SmallSuspension5x5Slim</SubtypeId>
       </Id>
       <DisplayName>Small Suspension 5x5 Slim Right</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
@@ -1393,7 +1411,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension5x5Slim</BlockPairName>
-	  <!--<MirroringBlock>SmallSuspension5x5SlimMirrored</MirroringBlock>-->
+	  <MirroringBlock>SmallSuspension5x5SlimMirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1404,7 +1422,7 @@
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
 	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
-      <RotorPart>SmallRealWheel5x5Slim</RotorPart>
+      <RotorPart>RWheel5x5Slim</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
       <MaxHeight>0.26</MaxHeight>
@@ -1430,7 +1448,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="1" z="5" />
@@ -1464,7 +1482,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>
-      <BlockPairName>RealWheel5x5Slim</BlockPairName>
+      <BlockPairName>RWheel5x5Slim</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1486,7 +1504,7 @@
       </Id>
       <Public>false</Public>
       <DisplayName>Real Wheel 5x5</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension1x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="1" z="5" />
@@ -1519,7 +1537,7 @@
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
       </VoxelPlacement>  
-      <BlockPairName>RealWheel5x5Slim</BlockPairName>
+      <BlockPairName>RWheel5x5Slim</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1535,13 +1553,295 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
 
+<!--5x5 Slim Mirrored parts -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>Suspension5x5SlimMirrored</SubtypeId>
+      </Id>
+      <DisplayName>Suspension 5x5 Slim Left</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\MotorSuspension1x1.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="LargeTube" Count="6" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true"/>
+        <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
+        <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.80" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\MotorSuspension1x1Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\MotorSuspension1x1Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\MotorSuspension1x1Construction_3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>RealSuspension5x5SlimMirrored</BlockPairName>
+	  <MirroringBlock>Suspension5x5Slim</MirroringBlock>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <PropulsionForce>20000</PropulsionForce>
+      <RotorPart>RWheel5x5SlimMirrored</RotorPart>
+      <MinHeight>-1.5</MinHeight>
+      <MaxHeight>1.3</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <GuiVisible>false</GuiVisible>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.005</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+    </Definition>
+
+   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 5x5 Mirrored Suspension -->
+      <Id>
+        <TypeId>MotorSuspension</TypeId>
+        <SubtypeId>SmallSuspension5x5SlimMirrored</SubtypeId>
+      </Id>
+      <DisplayName>Small Suspension 5x5 Slim Left</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Left.dds</Icon>
+      <Description>Description_Suspension</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\MotorSuspension.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <DeformationRatio>0.1</DeformationRatio>
+      <UsesDeformation>false</UsesDeformation>
+      <Components>
+        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="Construction" Count="7" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+        <MountPoint Side="Right" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+        <MountPoint Side="Front" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+        <MountPoint Side="Back" StartX="0.25" StartY="0" EndX="0.75" EndY="0.83" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\MotorSuspensionConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\MotorSuspensionConstruction_2.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>RealSuspension5x5SlimMirrored</BlockPairName>
+	    <MirroringBlock>SmallSuspension5x5Slim</MirroringBlock>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <PrimarySound>BlockWheel1x1</PrimarySound>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.05</RequiredPowerInput>
+      <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
+      <MaxForceMagnitude>1E9</MaxForceMagnitude>
+	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <RotorPart>RWheel5x5SlimMirrored</RotorPart>
+      <PropulsionForce>1000</PropulsionForce>
+      <MinHeight>-0.32</MinHeight>
+      <MaxHeight>0.26</MaxHeight>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <SafetyDetach>5</SafetyDetach>
+      <SafetyDetachMax>5</SafetyDetachMax>
+      <AxleFriction>20000</AxleFriction>
+      <SteeringSpeed>0.015</SteeringSpeed>
+      <AirShockMinSpeed>10</AirShockMinSpeed>
+      <AirShockMaxSpeed>25</AirShockMaxSpeed>
+      <AirShockActivationDelay>60</AirShockActivationDelay>
+      <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+
+    </Definition>
+
+    <Definition> <!-- Small 5x5 Wheel -->
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>SmallRealWheel5x5SlimMirror</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>Real Wheel 5x5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\5x5SmSlimMirrored.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\5x5SmSlim_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\5x5SmSlim_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\5x5SmSlim_BS3.mwm" />
+      </BuildProgressModels>       
+
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>RWheel5x5SlimMirrored</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+    <Definition> 
+      <Id>
+        <TypeId>Wheel</TypeId>
+        <SubtypeId>RealWheel5x5SlimMirror</SubtypeId>
+      </Id>
+      <Public>false</Public>
+      <DisplayName>Real Wheel 5x5</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="1" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\5x5SlimMirrored.mwm</Model>
+      <UseModelIntersection>true</UseModelIntersection>
+      <PhysicalMaterial>Wheel</PhysicalMaterial>
+      <Components>
+        <Component Subtype="SteelPlate" Count="14" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="4" />
+        <Component Subtype="SteelPlate" Count="14" />
+      </Components>
+      <CriticalComponent Subtype="LargeTube" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\5x5Slim_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\5x5Slim_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\5x5Slim_BS3.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        <StaticMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0</MinAllowed>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>OutsideVoxel</PlacementMode>
+          <MaxAllowed>0.2</MaxAllowed>
+          <MinAllowed>0.01</MinAllowed>
+        </DynamicMode>
+      </VoxelPlacement>  
+      <BlockPairName>RWheel5x5SlimMirrored</BlockPairName>
+      <DeformationRatio>0.3</DeformationRatio>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Public>true</Public>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+    </Definition>
+
+
+
+
+
+
+
  <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 3x3 Suspension Control -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension3x3</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <Description>Description_Suspension</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1713,7 +2013,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
       <Description>Description_Suspension</Description>
-      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
       <CubeSize>Small</CubeSize>
       <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
