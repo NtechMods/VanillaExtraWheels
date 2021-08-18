@@ -13,7 +13,7 @@
             <Source>SmallRealWheel5x5Slim</Source>
             <Material>
                 <DecalType>NormalMap</DecalType>
-                <NormalmapTexture>Textures/Decals/Trails/Homeworld_ng.dds</NormalmapTexture>
+                <NormalmapTexture>Textures/Decals/Trails/Wheel1x1_ng.dds</NormalmapTexture>
                 <AlphamaskTexture>Textures/Decals/Trails/Wheel1x1_alphamask.dds</AlphamaskTexture>
             </Material>
             <Rotation>0</Rotation>
