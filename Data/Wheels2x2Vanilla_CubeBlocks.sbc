@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<!-- Research Groups and Blocks -->
-   <ResearchBlocks>
-    <ResearchBlock xsi:type="ResearchBlock">
+  <!-- Research Groups and Blocks -->
+  <ResearchBlocks>
+    <!--<ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" />
       <UnlockedByGroups>
         <GroupSubtype>14</GroupSubtype>
@@ -31,8 +31,7 @@
       <UnlockedByGroups>
         <GroupSubtype>14</GroupSubtype>
       </UnlockedByGroups>
-    </ResearchBlock>
-    
+    </ResearchBlock>-->
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5SlimMirrored" />
       <UnlockedByGroups>
@@ -57,8 +56,6 @@
         <GroupSubtype>14</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-	
-	
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4" />
       <UnlockedByGroups>
@@ -83,102 +80,96 @@
         <GroupSubtype>14</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-   </ResearchBlocks>
-
-<!--Block Groups -->
-    <BlockVariantGroups>
-
-        <!-- Wheels and Suspensions -->
-		<BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
-            <DisplayName>DisplayName_Block_Suspension3x3</DisplayName>
-            <Description>Description_Suspension</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5Slim" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension2x2" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5Slim" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension2x2" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension4x4" />
-			</Blocks>
-        </BlockVariantGroup>
-
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionLeftGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\WheelSuspensionleft3x3.dds</Icon>
-            <DisplayName>DisplayName_Block_Suspension3x3mirrored</DisplayName>
-            <Description>Description_Suspension</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension2x2mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5SlimMirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension2x2mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension4x4mirrored" />
-                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5SlimMirrored" />
-            </Blocks>
-        </BlockVariantGroup>
-		
-        <BlockVariantGroup>
-            <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelStaticGroup2" />
-            <Icon>Textures\GUI\Icons\Cubes\Wheel3x3.dds</Icon>
-            <DisplayName>DisplayName_BlockGroup_WheelStaticGroup</DisplayName>
-            <Description>Description_Wheel</Description>
-            <Blocks>
-                <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel1x1" />
+  </ResearchBlocks>
+  <!--Block Groups -->
+  <BlockVariantGroups>
+    <!-- Wheels and Suspensions -->
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionRightGroup2" />
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspension3x3Right.dds</Icon>
+      <DisplayName>DisplayName_Block_Suspension4x4</DisplayName>
+      <Description>Description_Suspension</Description>
+      <Blocks>
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3" /> -->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5Slim" />
+        <!-- <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension2x2" /> -->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4" />
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3" /> -->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5Slim" />
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension2x2" />-->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension4x4" />
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelSuspensionLeftGroup2" />
+      <Icon>Textures\GUI\Icons\Cubes\WheelSuspensionleft3x3.dds</Icon>
+      <DisplayName>DisplayName_Block_Suspension4x4mirrored</DisplayName>
+      <Description>Description_Suspension</Description>
+      <Blocks>
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension3x3mirrored" />-->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5mirrored" />
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension1x1mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension2x2mirrored" />-->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension4x4mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="Suspension5x5SlimMirrored" />
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension3x3mirrored" />-->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5mirrored" />
+        <!--<Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension1x1mirrored" />
+                <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension2x2mirrored" />-->
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension4x4mirrored" />
+        <Block Type="MyObjectBuilder_MotorSuspension" Subtype="SmallSuspension5x5SlimMirrored" />
+      </Blocks>
+    </BlockVariantGroup>
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="WheelStaticGroup2" />
+      <Icon>Textures\GUI\Icons\Cubes\Wheel3x3.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_WheelStaticGroup</DisplayName>
+      <Description>Description_Wheel</Description>
+      <Blocks>
+        <!--<Block Type="MyObjectBuilder_Wheel" Subtype="Wheel1x1" />
                 <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel2x2" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel3x3" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel4x4" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel5x5" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel1x1" />
+                <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel3x3" />-->
+        <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel4x4" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="Wheel5x5" />
+        <!--<Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel1x1" />
                 <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel2x2" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel3x3" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel4x4" />
-                <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel5x5" />
-            </Blocks>
-        </BlockVariantGroup>
+                <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel3x3" />-->
+        <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel4x4" />
+        <Block Type="MyObjectBuilder_Wheel" Subtype="SmallWheel5x5" />
+      </Blocks>
+    </BlockVariantGroup>
   </BlockVariantGroups>
-
-
   <BlockPositions>
     <BlockPosition>
-      <Name>Wheel1x1</Name>
+      <Name>Wheel4x4</Name>
       <Position>
         <X>3</X>
         <Y>5</Y>
       </Position>
     </BlockPosition>
     <BlockPosition>
-      <Name>Suspension3x3</Name>
+      <Name>Suspension4x4</Name>
       <Position>
         <X>5</X>
         <Y>5</Y>
       </Position>
     </BlockPosition>
     <BlockPosition>
-      <Name>Suspension3x3mirrored</Name>
+      <Name>Suspension4x4mirrored</Name>
       <Position>
         <X>4</X>
         <Y>5</Y>
       </Position>
     </BlockPosition>
-   </BlockPositions>
-  <CubeBlocks> 
-  
-  <!-- Wheel 2x2 Parts -->
-    <Definition> <!-- Small 2x2 Wheel -->
+  </BlockPositions>
+  <CubeBlocks>
+    <!-- Wheel 2x2 Parts -->
+    <Definition>
+      <!-- Small 2x2 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel2x2</SubtypeId>
@@ -203,8 +194,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2_Constr1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2_Constr2.mwm" />
-      </BuildProgressModels>       
-
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -233,7 +223,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-     <Definition> <!-- Large 2x2 Wheel -->
+    <Definition>
+      <!-- Large 2x2 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>LargeRealWheel2x2</SubtypeId>
@@ -272,7 +263,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RealWheel2x2</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -288,7 +279,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-   <Definition> <!-- Small 2x2 Mirrored Wheel -->
+    <Definition>
+      <!-- Small 2x2 Mirrored Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel2x2mirrored</SubtypeId>
@@ -313,7 +305,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension2x2_Constr1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension2x2_Constr2.mwm" />
-      </BuildProgressModels>    
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -342,7 +334,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-     <Definition> <!-- Large 2x2 Mirrored Wheel -->
+    <Definition>
+      <!-- Large 2x2 Mirrored Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>LargeRealWheel2x2mirrored</SubtypeId>
@@ -381,7 +374,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RealWheel2x2mirrored</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -397,10 +390,9 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
- 	
-	
-<!-- Suspension parts-->
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 2x2 Suspension -->
+    <!-- Suspension parts-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 2x2 Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension2x2</SubtypeId>
@@ -459,7 +451,7 @@
       <RequiredPowerInput>0.15</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RealWheel2x2</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -477,7 +469,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 2x2 Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 2x2 Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension2x2</SubtypeId>
@@ -537,7 +530,7 @@
       <RequiredPowerInput>0.75</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RealWheel2x2</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -556,8 +549,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
- 
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 2x2 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 2x2 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension2x2mirrored</SubtypeId>
@@ -616,7 +609,7 @@
       <RequiredPowerInput>0.15</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RealWheel2x2mirrored</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -634,7 +627,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 2x2 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 2x2 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension2x2mirrored</SubtypeId>
@@ -694,7 +688,7 @@
       <RequiredPowerInput>0.75</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RealWheel2x2mirrored</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -713,13 +707,10 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
- 
-<!-- 4x4 Wheels -->
-
-
-
-  <!-- Wheel 4x4 Parts -->
-    <Definition> <!-- Small 4x4 Wheel -->
+    <!-- 4x4 Wheels -->
+    <!-- Wheel 4x4 Parts -->
+    <Definition>
+      <!-- Small 4x4 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel4x4</SubtypeId>
@@ -744,8 +735,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension4x4_Constr1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension4x4_Constr2.mwm" />
-      </BuildProgressModels>       
-
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -774,7 +764,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-     <Definition> <!-- Large 4x4 Wheel -->
+    <Definition>
+      <!-- Large 4x4 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>LargeRealWheel4x4</SubtypeId>
@@ -813,7 +804,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RealWheel4x4</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -829,7 +820,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-   <Definition> <!-- Small 4x4 Mirrored Wheel -->
+    <Definition>
+      <!-- Small 4x4 Mirrored Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel4x4mirrored</SubtypeId>
@@ -854,7 +846,7 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\WheelSuspension4x4_Constr1.mwm" />
         <Model BuildPercentUpperBound="1" File="Models\Cubes\Small\WheelSuspension4x4_Constr2.mwm" />
-      </BuildProgressModels>    
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -883,7 +875,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-     <Definition> <!-- Large 2x2 Mirrored Wheel -->
+    <Definition>
+      <!-- Large 2x2 Mirrored Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>LargeRealWheel4x4mirrored</SubtypeId>
@@ -922,7 +915,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RealWheel4x4mirrored</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -938,10 +931,9 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
- 	
-	
-<!-- Suspension parts-->
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 4x4 Suspension -->
+    <!-- Suspension parts-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 4x4 Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension4x4</SubtypeId>
@@ -992,7 +984,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4</BlockPairName>
-	  <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
+      <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1002,7 +994,7 @@
       <RequiredPowerInput>0.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RealWheel4x4</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -1019,8 +1011,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 4x4 Suspension -->
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 4x4 Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension4x4</SubtypeId>
@@ -1072,7 +1065,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4</BlockPairName>
-	  <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
+      <MirroringBlock>SmallSuspension4x4mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1082,7 +1075,7 @@
       <RequiredPowerInput>1.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RealWheel4x4</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -1111,8 +1104,8 @@
         </BlockId>
       </UnlockedBy>
     </Definition>
- 
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 4x4 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 4x4 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension4x4mirrored</SubtypeId>
@@ -1163,7 +1156,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
-	  <MirroringBlock>SmallSuspension4x4</MirroringBlock>
+      <MirroringBlock>SmallSuspension4x4</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1173,7 +1166,7 @@
       <RequiredPowerInput>0.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RealWheel4x4mirrored</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -1190,9 +1183,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-
     </Definition>
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 4x4 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 4x4 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension4x4mirrored</SubtypeId>
@@ -1244,7 +1237,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension4x4mirrored</BlockPairName>
-	  <MirroringBlock>SmallSuspension4x4</MirroringBlock>
+      <MirroringBlock>SmallSuspension4x4</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1254,7 +1247,7 @@
       <RequiredPowerInput>1.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RealWheel4x4mirrored</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -1272,13 +1265,10 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-
     </Definition>
- 
-
-<!-- 5x5 Slim Suspension and Wheels-->
-
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 5x5 Slim Suspension -->
+    <!-- 5x5 Slim Suspension and Wheels-->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 5x5 Slim Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension5x5Slim</SubtypeId>
@@ -1330,7 +1320,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension5x5Slim</BlockPairName>
-	    <MirroringBlock>Suspension5x5SlimMirrored</MirroringBlock>
+      <MirroringBlock>Suspension5x5SlimMirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1340,7 +1330,7 @@
       <RequiredPowerInput>1.10</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RWheel5x5Slim</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -1359,8 +1349,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
-
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 4x4 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 4x4 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension5x5Slim</SubtypeId>
@@ -1411,7 +1401,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension5x5Slim</BlockPairName>
-	  <MirroringBlock>SmallSuspension5x5SlimMirrored</MirroringBlock>
+      <MirroringBlock>SmallSuspension5x5SlimMirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1421,7 +1411,7 @@
       <RequiredPowerInput>0.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RWheel5x5Slim</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -1438,10 +1428,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-
     </Definition>
-
-    <Definition> <!-- Small 5x5 Wheel -->
+    <Definition>
+      <!-- Small 5x5 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel5x5Slim</SubtypeId>
@@ -1467,8 +1456,7 @@
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\5x5SmSlim_BS1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\5x5SmSlim_BS2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\5x5SmSlim_BS3.mwm" />
-      </BuildProgressModels>       
-
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -1497,7 +1485,7 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-    <Definition> 
+    <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel5x5Slim</SubtypeId>
@@ -1536,7 +1524,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RWheel5x5Slim</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1552,8 +1540,7 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-
-<!--5x5 Slim Mirrored parts -->
+    <!--5x5 Slim Mirrored parts -->
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -1606,7 +1593,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension5x5SlimMirrored</BlockPairName>
-	  <MirroringBlock>Suspension5x5Slim</MirroringBlock>
+      <MirroringBlock>Suspension5x5Slim</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1616,7 +1603,7 @@
       <RequiredPowerInput>1.10</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>20000</PropulsionForce>
       <RotorPart>RWheel5x5SlimMirrored</RotorPart>
       <MinHeight>-1.5</MinHeight>
@@ -1635,8 +1622,8 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
-
-   <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 5x5 Mirrored Suspension -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 5x5 Mirrored Suspension -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension5x5SlimMirrored</SubtypeId>
@@ -1687,7 +1674,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>RealSuspension5x5SlimMirrored</BlockPairName>
-	    <MirroringBlock>SmallSuspension5x5Slim</MirroringBlock>
+      <MirroringBlock>SmallSuspension5x5Slim</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1697,7 +1684,7 @@
       <RequiredPowerInput>0.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RWheel5x5SlimMirrored</RotorPart>
       <PropulsionForce>1000</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -1714,10 +1701,9 @@
       <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
-
     </Definition>
-
-    <Definition> <!-- Small 5x5 Wheel -->
+    <Definition>
+      <!-- Small 5x5 Wheel -->
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>SmallRealWheel5x5SlimMirror</SubtypeId>
@@ -1743,8 +1729,7 @@
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\5x5SmSlim_BS1.mwm" />
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\5x5SmSlim_BS2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\5x5SmSlim_BS3.mwm" />
-      </BuildProgressModels>       
-
+      </BuildProgressModels>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -1773,7 +1758,7 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-    <Definition> 
+    <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>RealWheel5x5SlimMirror</SubtypeId>
@@ -1812,7 +1797,7 @@
           <MaxAllowed>0.2</MaxAllowed>
           <MinAllowed>0.01</MinAllowed>
         </DynamicMode>
-      </VoxelPlacement>  
+      </VoxelPlacement>
       <BlockPairName>RWheel5x5SlimMirrored</BlockPairName>
       <DeformationRatio>0.3</DeformationRatio>
       <MirroringY>Z</MirroringY>
@@ -1828,14 +1813,8 @@
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
     </Definition>
-
-
-
-
-
-
-
- <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Large 3x3 Suspension Control -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Large 3x3 Suspension Control -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>Suspension3x3</SubtypeId>
@@ -1887,7 +1866,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>Suspension3x3</BlockPairName>
-	  <MirroringBlock>Suspension3x3mirrored</MirroringBlock>
+      <MirroringBlock>Suspension3x3mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1897,7 +1876,7 @@
       <RequiredPowerInput>0.25</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <PropulsionForce>60000</PropulsionForce>
       <RotorPart>RealWheel</RotorPart>
       <!-- The max angle (radians) that steer angle slider can go to. -->
@@ -1918,7 +1897,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>50</PCU>
     </Definition>
-	
     <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
       <Id>
         <TypeId>MotorSuspension</TypeId>
@@ -2000,13 +1978,10 @@
       <AirShockActivationDelay>60</AirShockActivationDelay>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <PCU>50</PCU>      
+      <PCU>50</PCU>
     </Definition>
-	
-	
-	
-	
-    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition"> <!-- Small 3x3 Suspension Control -->
+    <Definition xsi:type="MyObjectBuilder_MotorSuspensionDefinition">
+      <!-- Small 3x3 Suspension Control -->
       <Id>
         <TypeId>MotorSuspension</TypeId>
         <SubtypeId>SmallSuspension3x3</SubtypeId>
@@ -2057,7 +2032,7 @@
         </DynamicMode>
       </VoxelPlacement>
       <BlockPairName>Suspension3x3</BlockPairName>
-	  <MirroringBlock>SmallSuspension3x3mirrored</MirroringBlock>
+      <MirroringBlock>SmallSuspension3x3mirrored</MirroringBlock>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -2067,7 +2042,7 @@
       <RequiredPowerInput>0.05</RequiredPowerInput>
       <RequiredIdlePowerInput>0.002</RequiredIdlePowerInput>
       <MaxForceMagnitude>1E9</MaxForceMagnitude>
-	  <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
+      <DangerousTorqueThreshold>3.36E+07</DangerousTorqueThreshold>
       <RotorPart>RealWheel</RotorPart>
       <PropulsionForce>1920</PropulsionForce>
       <MinHeight>-0.32</MinHeight>
@@ -2094,12 +2069,9 @@
           <SubtypeId>SmallBlockLandingGear</SubtypeId>
         </BlockId>
       </UnlockedBy>
-    </Definition>	
-
-
-<!-- Fixed Wheels 1x1 2x2 3x3 4x4 5x5 -->
-
-    <Definition>
+    </Definition>
+    <!-- Fixed Wheels 1x1 2x2 3x3 4x4 5x5 -->
+    <!--<Definition>
       <Id>
         <TypeId>Wheel</TypeId>
         <SubtypeId>Wheel1x1</SubtypeId>
@@ -2130,7 +2102,7 @@
         <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
       </MountPoints>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -2161,7 +2133,7 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
     <Definition>
       <Id>
@@ -2189,7 +2161,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\Wheel1x1Construction_2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -2224,9 +2196,9 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
-	<!-- 2x2 wheels -->
+    <2x2 wheels>
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2254,7 +2226,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\FixedWheel2x2_Constr3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -2288,7 +2260,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2316,7 +2288,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\FixedWheel2x2_Constr2.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -2350,12 +2322,9 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>      
-    </Definition>
-	
-	
-	<!-- 4x4 fixed wheels -->
-
+      <PCU>25</PCU>
+    </Definition>-->
+    <!-- 4x4 fixed wheels -->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2417,7 +2386,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2479,14 +2448,9 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
-
-
-
-	
-<!-- 3x3 wheels for menu fixing -->	
-	
+    <!-- 3x3 wheels for menu fixing -->
     <Definition>
       <Id>
         <TypeId>Wheel</TypeId>
@@ -2514,7 +2478,7 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Wheel3x3Construction_3.mwm" />
       </BuildProgressModels>
       <VoxelPlacement>
-        <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+        
         <StaticMode>
           <PlacementMode>OutsideVoxel</PlacementMode>
           <MaxAllowed>0.2</MaxAllowed>
@@ -2547,7 +2511,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2608,7 +2572,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2671,7 +2635,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
     <Definition>
       <Id>
@@ -2733,9 +2697,7 @@
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
-      <PCU>25</PCU>      
+      <PCU>25</PCU>
     </Definition>
-	
-	
-	</CubeBlocks>
+  </CubeBlocks>
 </Definitions>
